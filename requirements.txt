@@ -6,3 +6,4 @@ mock
 ccm
 ##sphinx-read_the_docs
 bluepy
+sphinx_rtd_theme
