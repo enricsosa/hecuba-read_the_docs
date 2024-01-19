@@ -13,6 +13,8 @@ In this manual, we describe how to implement a Python application using `Hecuba 
    :caption: Contents:
 
    applications
+   deployment
+   basics
 
 
 Indices and tables
