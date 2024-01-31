@@ -19,11 +19,13 @@ In this manual, we describe how to implement a Python application using `Hecuba 
    execution
    exe_pycompss
    conf_param
+   cplusplus
+   lambda
 
+..
+   Indices and tables
+   ==================
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   * :ref:`genindex`
+   * :ref:`modindex`
+   * :ref:`search`
