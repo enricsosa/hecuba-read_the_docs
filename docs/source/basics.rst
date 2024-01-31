@@ -1,4 +1,4 @@
-.. _applications:
+.. _basics:
 
 The basics
 ==========

@@ -15,6 +15,10 @@ In this manual, we describe how to implement a Python application using `Hecuba 
    applications
    deployment
    basics
+   pycompss
+   execution
+   exe_pycompss
+   conf_param
 
 
 Indices and tables
