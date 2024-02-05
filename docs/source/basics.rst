@@ -5,6 +5,8 @@ The basics
 
 In this chapter we describe in detail the interface provided by the Hecuba. We also illustrate how the supported data types and operations can be applied.
 
+Hola que tal.
+
 Supported Data Types and Collections
 ************************************
 
