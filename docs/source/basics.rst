@@ -5,8 +5,6 @@ The basics
 
 In this chapter we describe in detail the interface provided by the Hecuba. We also illustrate how the supported data types and operations can be applied.
 
-Hola que tal.
-
 Supported Data Types and Collections
 ************************************
 
@@ -343,7 +341,7 @@ Using the *split* method no data loading from storage happens until the data in 
 Partitioning of a dataset was introduced to support the implementation of data-driven distributed applications: developers can define parallel tasks each of them working on one of these chunks of data.
 Hecuba supports an additional level of iteration that allows iterating over each of these partitions, using the python iteration methods.
 
-IMAGEIMAGEIMAGEIMAGEIMAGE
+.. image:: images/HecubaIterators_2.png
 
 The current implementation of the *split* method does not supports partitioning on volatile objects.
 
@@ -367,7 +365,7 @@ Following, we describe the specificities of this method for *StorageDict* and fo
 
 * **Iterating over a StorageNumpy**: by default, each partition of a *StorageNumpy* corresponds with a *StorageNumpy* block. In the current implementation, the size of the block is fixed but in future releases it will be a configurable parameter. The distribution of blocks in the storage follows the z-order algorithm, to enhance a uniform distribution. In the case of the 2-dimmensional *StorageNumpys*, the split method supports a parameter (which is ignored in the case of the *StorageDicts* and *StorageNumpys* with a different number of dimmensions). This parameter is intended to support the two typical pattern of accesses to matrices: by rows and by columns. Using this parameter, each partition is either composed of a column of blocks (parameter cols=False) or composed of a row of blocks (parameter cols=True).
 
-IMAGEIMAGEIMAGEIMAGEIMAGE
+.. image:: images/SNSplit_3.png
 
 .. code-block:: python
 

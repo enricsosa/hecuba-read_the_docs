@@ -27,4 +27,4 @@ The following code shows an example of PyCOMPSs task. The input parameter of the
                 partialResult[word] = partialResult[word] + 1
         return partialResult
 
-IMAGEIMAGEIMAGEIMAGEIMAGE
+.. image:: images/DataLocality_4.png
